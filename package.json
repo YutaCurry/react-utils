@@ -13,20 +13,6 @@
   "files": [
     "dist"
   ],
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      }
-    },
-    "./hooks": {
-      "import": {
-        "types": "./dist/hooks/index.d.ts",
-        "default": "./dist/hooks/index.js"
-      }
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YutaCurry/react-utils.git"
