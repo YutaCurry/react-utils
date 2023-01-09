@@ -1,1 +1,1 @@
-export * as hooks from './hooks';
+export * as hooks from './hooks'

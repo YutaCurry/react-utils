@@ -13,6 +13,9 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    "./hooks": "./dist/hooks/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YutaCurry/react-utils.git"
