@@ -14,8 +14,14 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/index.js",
-    "./hooks": "./dist/hooks/index.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./hooks": {
+      "types": "./dist/hooks/index.d.ts",
+      "import": "./dist/hooks/index.js"
+    }
   },
   "repository": {
     "type": "git",
