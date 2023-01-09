@@ -14,7 +14,8 @@
     "dist"
   ],
   "exports": {
-    "./hooks": "./dist/hooks/*.js"
+    ".": "./dist/index.js",
+    "./hooks": "./dist/hooks/index.js"
   },
   "repository": {
     "type": "git",
